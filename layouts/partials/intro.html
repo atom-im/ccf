@@ -1,12 +1,19 @@
 	{{ "<!-- logo -->" | safeHTML }}
 	<div id="logo">
-		<a><img alt="call for papers" src="assets/images/logo.png"></a>
+		<a><img alt="CCF" src="assets/images/logo.png"></a>
 	</div>
+	{{ "<!-- search form -->" | safeHTML }}
+	<div id="search">
+		<img alt="search" class="icon" src="assets/images/search.dark.16x16.png">
+		<input oninput="w3.filterHTML('#ccf', '.item', this.value)" placeholder="Search for names..">
+		<!-- <input oninput="w3.filterHTML('.item', this.value)" placeholder="Search for names.."> -->
+	</div>
+	
 	{{ "<!-- head line -->" | safeHTML }}
 	<header class="noline" id="headline">
 		<h1>{{ .Site.Params.intro.title }}</h1>
 	</header>
-	<div class="warning">
+	<div>
 		<p>{{ with .Site.Params.intro.intro }}{{ . | markdownify }}{{ end }}</p>
 	</div>
 	<div class="clear-both"></div>

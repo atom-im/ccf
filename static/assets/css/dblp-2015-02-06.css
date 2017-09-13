@@ -218,6 +218,12 @@ nav.top .drop-down>.body ul>li.separator { margin:5px 0px; }
                 padding: 0px 4px 2px; border: 2px gold dotted; }
 #announcement a { color:maroon; }
 
+/* search form */
+#search { position:absolute; display:inline; top:110px; right:4em; }
+#search>img.icon { margin-right:0.5em; vertical-align:-2px; }
+#search>img.no-js-only.icon { vertical-align:-2px; }
+#search>input { position:relative; border:2px #cccccc solid; width:480px; height:24px; }
+
 /* head line */
 #headline { position:relative; clear:both; background:#606b70; color:#ffffff;
             padding:4px 24px; margin:2ex 0em; }

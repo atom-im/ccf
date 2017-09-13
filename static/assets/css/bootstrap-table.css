@@ -8,6 +8,12 @@ table {
 th {
 	text-align: left;
 }
+th.fullname {
+	width: 45%;
+}
+th.field {
+	width: 25%;
+}
 .table {
 	width: 100%;
 	margin-bottom: 20px;

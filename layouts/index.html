@@ -12,16 +12,8 @@
 {{ partial "intro.html" . }}
 {{- end -}}
 
-{{ if .Site.Params.highlight.enable }}
-{{ partial "highlight.html" . }}
-{{- end -}}
-
-{{ if .Site.Params.upcoming.enable }}
-{{ partial "upcoming.html" . }}
-{{- end -}}
-
-{{ if .Site.Params.past.enable }}
-{{ partial "past.html" . }}
+{{ if .Site.Params.ccf.enable }}
+{{ partial "ccf.html" . }}
 {{- end -}}
 
 {{ if .Site.Params.info.enable }}

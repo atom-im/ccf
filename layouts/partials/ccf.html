@@ -1,0 +1,33 @@
+	<div class="hideable" id="ccf">
+		<!-- <header class="hide-head nowrap"> -->
+		<!-- 	<h2>{{ .Site.Params.ccf.title }}</h2> -->
+		<!-- </header> -->
+		<div class="hide-body">
+			<table id="ccf" class="table table-bordered table-striped table-condensed">
+				<thead>
+					<tr>
+						<th>{{ .Site.Params.ccf.num }}</th>
+						<th>{{ .Site.Params.ccf.abbr }}</th>
+						<th class="fullname">{{ .Site.Params.ccf.fullname }}</th>
+						<!-- <th>{{ .Site.Params.ccf.publisher }}</th> -->
+						<th>{{ .Site.Params.ccf.rank }}</th>
+						<th>{{ .Site.Params.ccf.type }}</th>
+						<th class="field">{{ .Site.Params.ccf.field }}</th>
+					</tr>
+				</thead>
+				<tbody>
+{{- range $p := .Site.Params.ccf.list }}
+					<tr class="item">
+						<th scope="row">{{ $p.num }}</th>
+						<td>{{ $p.abbr | markdownify }}</td>
+						<td>{{ $p.fullname | markdownify }}</td>
+						<!-- <td>{{ $p.publisher | markdownify }}</td> -->
+						<td>{{ $p.rank | markdownify }}</td>
+						<td>{{ $p.type | markdownify }}</td>
+						<td>{{ $p.field | markdownify }}</td>
+					</tr>
+{{- end }}
+				</tbody>
+			</table>
+		</div>
+	</div>
