@@ -1,1 +1,1 @@
-Call for papers website (hugo)
+CCF Journal & Conference Rankings
