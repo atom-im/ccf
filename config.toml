@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://www.atom.im/ccf"
+baseurl = "https://www.atom.im/ccf"
 languageCode = "en-us"
 title = "中国计算机学会推荐国际学术会议和期刊目录"
 
@@ -24,7 +24,7 @@ disableKinds=["404", "RSS", "sitemap"]
 
     # Footer section
     [params.footer]
-        copyright = "Theme designed by [dblp](http://dblp.uni-trier.de/), customized by [atom.im](http://atom.im/)."
+        copyright = "Theme designed by [dblp](https://dblp.uni-trier.de/), customized by [atom.im](https://atom.im/)."
 
     # Introduction section
     [params.intro]
