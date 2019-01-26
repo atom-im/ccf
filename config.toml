@@ -2,7 +2,7 @@
 
 baseurl = "https://www.atom.im/ccf"
 languageCode = "en-us"
-title = "中国计算机学会推荐国际学术会议和期刊目录"
+title = "中国计算机学会推荐国际学术会议和期刊目录（第四版）"
 
 # Do not build files for websites. Need them? Set to false
 disableKinds=["404", "RSS", "sitemap"]
@@ -13,8 +13,8 @@ disableKinds=["404", "RSS", "sitemap"]
 
 [params]
 
-	# Meta
-    description = "中国计算机学会推荐国际学术会议和期刊目录"
+    # Meta
+    description = "中国计算机学会推荐国际学术会议和期刊目录（第四版）"
     keywords = "ccf, ranking list, conference, journal, computer science and technology"
     author = "Hu WAN"
 
@@ -29,10 +29,10 @@ disableKinds=["404", "RSS", "sitemap"]
     # Introduction section
     [params.intro]
         enable = true
-        title = "中国计算机学会推荐国际学术会议和期刊目录"
-		# intro = "   注：2015年12月最新版"
+        title = "中国计算机学会推荐国际学术会议和期刊目录（第四版）"
+	intro = "注：此目录为2015年12月21日中国计算机学会公布的第四版。"
 
-   # CCF rank list section
+    # CCF rank list section
     [params.ccf]
         enable = true
 		# title = "CCF 排名"
