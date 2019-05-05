@@ -12,8 +12,12 @@
 {{ partial "intro.html" . }}
 {{- end -}}
 
-{{ if .Site.Params.ccf.enable }}
-{{ partial "ccf.html" . }}
+{{ if .Site.Params.journal.enable }}
+{{ partial "journal.html" . }}
+{{- end -}}
+
+{{ if .Site.Params.conf.enable }}
+{{ partial "conf.html" . }}
 {{- end -}}
 
 {{ if .Site.Params.info.enable }}

@@ -1,0 +1,51 @@
+	<div class="hideable" id="ccf">
+		<header class="hide-head nowrap">
+			<h2>{{ .Site.Params.conf.title }}</h2>
+		</header>
+		<div class="hide-body">
+			<table class="table table-bordered table-condensed">
+				<thead>
+					<tr>
+						<th>{{ .Site.Params.conf.num }}</th>
+						<th>{{ .Site.Params.conf.abbr }}</th>
+						<th class="fullname">{{ .Site.Params.conf.fullname }}</th>
+						<th>{{ .Site.Params.conf.rank }}</th>
+						<th>{{ .Site.Params.conf.type }}</th>
+						<th class="field">{{ .Site.Params.conf.field }}</th>
+					</tr>
+				</thead>
+				<tbody>
+{{- range $p := .Site.Params.conf.list }}
+{{ if eq $p.rank "A" }}
+					<tr class="item" style="background-color:Wheat">
+						<th scope="row">{{ $p.num }}</th>
+						<td>{{ $p.abbr | markdownify }}</td>
+						<td>{{ $p.fullname | markdownify }}</td>
+						<td>{{ $p.rank | markdownify }}</td>
+						<td>{{ $p.type | markdownify }}</td>
+						<td>{{ $p.field | markdownify }}</td>
+					</tr>
+{{ else if eq $p.rank "B" }}
+					<tr class="item" style="background-color:AntiqueWhite">
+						<th scope="row">{{ $p.num }}</th>
+						<td>{{ $p.abbr | markdownify }}</td>
+						<td>{{ $p.fullname | markdownify }}</td>
+						<td>{{ $p.rank | markdownify }}</td>
+						<td>{{ $p.type | markdownify }}</td>
+						<td>{{ $p.field | markdownify }}</td>
+					</tr>
+{{ else }}
+					<tr class="item" style="background-color:OldLace">
+						<th scope="row">{{ $p.num }}</th>
+						<td>{{ $p.abbr | markdownify }}</td>
+						<td>{{ $p.fullname | markdownify }}</td>
+						<td>{{ $p.rank | markdownify }}</td>
+						<td>{{ $p.type | markdownify }}</td>
+						<td>{{ $p.field | markdownify }}</td>
+					</tr>
+{{- end -}}
+{{- end }}
+				</tbody>
+			</table>
+		</div>
+	</div>
