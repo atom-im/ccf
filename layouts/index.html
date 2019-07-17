@@ -12,6 +12,10 @@
 {{ partial "intro.html" . }}
 {{- end -}}
 
+{{ if .Site.Params.info.enable }}
+{{ partial "info.html" . }}
+{{ end -}}
+
 {{ if .Site.Params.conf.enable }}
 {{ partial "conf.html" . }}
 {{- end -}}
@@ -19,10 +23,6 @@
 {{ if .Site.Params.journal.enable }}
 {{ partial "journal.html" . }}
 {{- end -}}
-
-{{ if .Site.Params.info.enable }}
-{{ partial "info.html" . }}
-{{ end -}}
 
 {{ partial "footer.html" . }}
 	</div> {{ "<!-- main -->" | safeHTML }}
