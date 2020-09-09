@@ -20,7 +20,7 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [params.info]
         enable = true
-        info = "**官方链接**: [中国计算机学会推荐国际学术会议和期刊目录](http://www.ccf.org.cn/xspj/gyml/)"
+        info = "**官方链接**: [中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)"
 
     # Footer section
     [params.footer]
