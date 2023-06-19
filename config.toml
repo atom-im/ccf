@@ -2,7 +2,7 @@
 
 baseurl = "https://ccf.atom.im"
 languageCode = "en-us"
-title = "中国计算机学会推荐国际学术会议和期刊目录（第五版）"
+title = "中国计算机学会推荐国际学术会议和期刊目录（2022）"
 
 # Do not build files for websites. Need them? Set to false
 disableKinds=["404", "RSS", "sitemap"]
@@ -14,7 +14,7 @@ disableKinds=["404", "RSS", "sitemap"]
 [params]
 
     # Meta
-    description = "中国计算机学会推荐国际学术会议和期刊目录（第五版）"
+    description = "中国计算机学会推荐国际学术会议和期刊目录（2022）"
     keywords = "ccf, ranking list, conference, journal, computer science and technology"
     author = "Hu Wan"
 
@@ -29,8 +29,8 @@ disableKinds=["404", "RSS", "sitemap"]
     # Introduction section
     [params.intro]
         enable = true
-        title = "中国计算机学会推荐国际学术会议和期刊目录（第五版）"
-        intro = "注：此目录为2019年4月25日中国计算机学会公布的第五版。第四版请访问[这里](https://ccf.atom.im/v4)。"
+        title = "中国计算机学会推荐国际学术会议和期刊目录（2022）"
+        intro = "注：此目录为2022年10月中国计算机学会通过的第六版（2023年3月发布）。（之前的版本：[第五版](https://ccf.atom.im/v5)、[第四版](https://ccf.atom.im/v4)）。"
 
     # CCF rank list section
     [params.journal]
@@ -101,7 +101,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "1"
+        num = "6"
         abbr = "TACO"
         fullname = "ACM Transactions on Architecture and Code Optimization"
         publisher = "ACM"
@@ -110,7 +110,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "2"
+        num = "1"
         abbr = "TAAS"
         fullname = "ACM Transactions on Autonomous and Adaptive Systems"
         publisher = "ACM"
@@ -119,7 +119,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "3"
+        num = "2"
         abbr = "TODAES"
         fullname = "ACM Transactions on Design Automation of Electronic Systems"
         publisher = "ACM"
@@ -128,7 +128,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "4"
+        num = "3"
         abbr = "TECS"
         fullname = "ACM Transactions on Embedded Computing Systems"
         publisher = "ACM"
@@ -137,7 +137,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "5"
+        num = "4"
         abbr = "TRETS"
         fullname = "ACM Transactions on Reconfigurable Technology and Systems"
         publisher = "ACM"
@@ -146,7 +146,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "6"
+        num = "5"
         abbr = "TVLSI"
         fullname = "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
         publisher = "IEEE"
@@ -155,7 +155,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "7"
+        num = "6"
         abbr = "JPDC"
         fullname = "Journal of Parallel and Distributed Computing"
         publisher = "Elsevier"
@@ -164,7 +164,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "8"
+        num = "7"
         abbr = "JSA"
         fullname = "Journal of Systems Architecture: Embedded Software Design"
         publisher = "Elsevier"
@@ -173,7 +173,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "9"
+        num = "8"
         abbr = "PARCO"
         fullname = "Parallel Computing"
         publisher = "Elsevier"
@@ -182,7 +182,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "10"
+        num = "9"
         abbr = ""
         fullname = "Performance Evaluation: An International Journal"
         publisher = "Elsevier"
@@ -264,15 +264,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.journal.list]]
         num = "9"
-        abbr = "MICPRO"
-        fullname = "Microprocessors and Microsystems: Embedded Hardware Design"
-        publisher = "Elsevier"
-        rank = "C"
-        type = "期刊"
-        field = "计算机体系结构/并行与分布计算/存储系统"
-
-    [[params.journal.list]]
-        num = "10"
         abbr = "RTS"
         fullname = "Real-Time Systems"
         publisher = "Springer"
@@ -281,9 +272,36 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.journal.list]]
-        num = "11"
+        num = "10"
         abbr = "TJSC"
         fullname = "The Journal of Supercomputing"
+        publisher = "Springer"
+        rank = "C"
+        type = "期刊"
+        field = "计算机体系结构/并行与分布计算/存储系统"
+
+    [[params.journal.list]]
+        num = "11"
+        abbr = "TCASI"
+        fullname = "IEEE Transactions on Circuits and Systems I: Regular Papers"
+        publisher = "IEEE"
+        rank = "C"
+        type = "期刊"
+        field = "计算机体系结构/并行与分布计算/存储系统"
+
+    [[params.journal.list]]
+        num = "12"
+        abbr = "CCF-THPC"
+        fullname = "CCF Transactions on High Performance Computing"
+        publisher = "CCF"
+        rank = "C"
+        type = "期刊"
+        field = "计算机体系结构/并行与分布计算/存储系统"
+
+    [[params.journal.list]]
+        num = "13"
+        abbr = "TSUSC"
+        fullname = "IEEE Transactions on Sustainable Computing"
         publisher = "Springer"
         rank = "C"
         type = "期刊"
@@ -461,6 +479,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机网络"
 
     [[params.journal.list]]
+        num = "11"
+        abbr = "IOT"
+        fullname = "IEEE Internet of Things Journal"
+        publisher = "IEEE"
+        rank = "C"
+        type = "期刊"
+        field = "计算机网络"
+
+    [[params.journal.list]]
         num = "1"
         abbr = "TDSC"
         fullname = "IEEE Transactions on Dependable and Secure Computing"
@@ -596,6 +623,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "网络与信息安全"
 
     [[params.journal.list]]
+        num = "9"
+        abbr = ""
+        fullname = "Cybersecurity"
+        publisher = "Springer"
+        rank = "C"
+        type = "期刊"
+        field = "网络与信息安全"
+
+    [[params.journal.list]]
         num = "1"
         abbr = "TOPLAS"
         fullname = "ACM Transactions on Programming Languages & Systems"
@@ -623,6 +659,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
+        num = "4"
+        abbr = "TSC"
+        fullname = "IEEE Transactions on Service Computing"
+        publisher = "IEEE"
+        rank = "B"
+        type = "期刊"
+        field = "软件工程/系统软件/程序设计语言"
+
+    [[params.journal.list]]
         num = "1"
         abbr = "ASE"
         fullname = "Automated Software Engineering"
@@ -642,15 +687,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.journal.list]]
         num = "3"
-        abbr = "TSC"
-        fullname = "IEEE Transactions on Service Computing"
-        publisher = "IEEE"
-        rank = "B"
-        type = "期刊"
-        field = "软件工程/系统软件/程序设计语言"
-
-    [[params.journal.list]]
-        num = "4"
         abbr = "IETS"
         fullname = "IET Software"
         publisher = "IET"
@@ -659,7 +695,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "5"
+        num = "4"
         abbr = "IST"
         fullname = "Information and Software Technology"
         publisher = "Elsevier"
@@ -668,7 +704,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "6"
+        num = "5"
         abbr = "JFP"
         fullname = "Journal of Functional Programming"
         publisher = "Cambridge University Press"
@@ -677,7 +713,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "7"
+        num = "6"
         abbr = ""
         fullname = "Journal of Software: Evolution and Process"
         publisher = "Wiley"
@@ -686,7 +722,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "8"
+        num = "7"
         abbr = "JSS"
         fullname = "Journal of Systems and Software"
         publisher = "Elsevier"
@@ -695,7 +731,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "9"
+        num = "8"
         abbr = "RE"
         fullname = "Requirements Engineering"
         publisher = "Springer"
@@ -704,7 +740,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "10"
+        num = "9"
         abbr = "SCP"
         fullname = "Science of Computer Programming"
         publisher = "Elsevier"
@@ -713,7 +749,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "11"
+        num = "10"
         abbr = "SoSyM"
         fullname = "Software and System Modeling"
         publisher = "Springer"
@@ -722,7 +758,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "12"
+        num = "11"
         abbr = "STVR"
         fullname = "Software Testing, Verification and Reliability"
         publisher = "Wiley"
@@ -731,7 +767,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.journal.list]]
-        num = "13"
+        num = "12"
         abbr = "SPE"
         fullname = "Software: Practice and Experience"
         publisher = "Wiley"
@@ -807,6 +843,24 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "TPLP"
         fullname = "Theory and Practice of Logic Programming"
         publisher = "Cambridge University Press"
+        rank = "C"
+        type = "期刊"
+        field = "软件工程/系统软件/程序设计语言"
+
+    [[params.journal.list]]
+        num = "8"
+        abbr = "TPLP"
+        fullname = "Theory and Practice of Logic Programming"
+        publisher = "Cambridge University Press"
+        rank = "C"
+        type = "期刊"
+        field = "软件工程/系统软件/程序设计语言"
+
+    [[params.journal.list]]
+        num = "9"
+        abbr = "PACM PL"
+        fullname = "Proceedings of the ACM on Programming Languages"
+        publisher = "ACM"
         rank = "C"
         type = "期刊"
         field = "软件工程/系统软件/程序设计语言"
@@ -1086,6 +1140,15 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "JSIS"
         fullname = "Journal of Strategic Information Systems"
         publisher = "Elsevier"
+        rank = "C"
+        type = "期刊"
+        field = "数据库/数据挖掘/内容检索"
+
+    [[params.journal.list]]
+        num = "15"
+        abbr = "DSE"
+        fullname = "Data Science and Engineering"
+        publisher = "CCF"
         rank = "C"
         type = "期刊"
         field = "数据库/数据挖掘/内容检索"
@@ -1568,6 +1631,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机图形学与多媒体"
 
     [[params.journal.list]]
+        num = "13"
+        abbr = "CVMJ"
+        fullname = "Computational Visual Media"
+        publisher = "Tsinghua University; Springer"
+        rank = "C"
+        type = "期刊"
+        field = "计算机图形学与多媒体"
+
+    [[params.journal.list]]
         num = "1"
         abbr = "AI"
         fullname = "Artificial Intelligence"
@@ -1614,15 +1686,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.journal.list]]
         num = "2"
-        abbr = "TSLP"
-        fullname = "ACM Transactions on Speech and Language Processing"
-        publisher = "ACM"
-        rank = "B"
-        type = "期刊"
-        field = "人工智能"
-
-    [[params.journal.list]]
-        num = "3"
         abbr = "AAMAS"
         fullname = "Autonomous Agents and Multi-Agent Systems"
         publisher = "Springer"
@@ -1631,7 +1694,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "4"
+        num = "3"
         abbr = ""
         fullname = "Computational Linguistics"
         publisher = "MIT Press"
@@ -1640,7 +1703,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "5"
+        num = "4"
         abbr = "CVIU"
         fullname = "Computer Vision and Image Understanding"
         publisher = "Elsevier"
@@ -1649,7 +1712,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "6"
+        num = "5"
         abbr = "DKE"
         fullname = "Data and Knowledge Engineering"
         publisher = "Elsevier"
@@ -1658,7 +1721,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "7"
+        num = "6"
         abbr = ""
         fullname = "Evolutionary Computation"
         publisher = "MIT Press"
@@ -1667,7 +1730,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "8"
+        num = "7"
         abbr = "TAC"
         fullname = "IEEE Transactions on Affective Computing"
         publisher = "IEEE"
@@ -1676,7 +1739,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "9"
+        num = "8"
         abbr = "TASLP"
         fullname = "IEEE Transactions on Audio, Speech, and Language Processing"
         publisher = "IEEE"
@@ -1685,7 +1748,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "10"
+        num = "9"
         abbr = ""
         fullname = "IEEE Transactions on Cybernetics"
         publisher = "IEEE"
@@ -1694,7 +1757,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "11"
+        num = "10"
         abbr = "TEC"
         fullname = "IEEE Transactions on Evolutionary Computation"
         publisher = "IEEE"
@@ -1703,7 +1766,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "12"
+        num = "11"
         abbr = "TFS"
         fullname = "IEEE Transactions on Fuzzy Systems"
         publisher = "IEEE"
@@ -1712,7 +1775,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "13"
+        num = "12"
         abbr = "TNNLS"
         fullname = "IEEE Transactions on Neural Networks and learning systems"
         publisher = "IEEE"
@@ -1721,7 +1784,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "14"
+        num = "13"
         abbr = "IJAR"
         fullname = "International Journal of Approximate Reasoning"
         publisher = "Elsevier"
@@ -1730,7 +1793,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "15"
+        num = "14"
         abbr = "JAIR"
         fullname = "Journal of Artificial Intelligence Research"
         publisher = "AAAI"
@@ -1739,7 +1802,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "16"
+        num = "15"
         abbr = ""
         fullname = "Journal of Automated Reasoning"
         publisher = "Springer"
@@ -1748,7 +1811,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "17"
+        num = "16"
         abbr = "JSLHR"
         fullname = "Journal of Speech, Language, and Hearing Research"
         publisher = "American Speech-Language Hearing Association"
@@ -1757,7 +1820,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "18"
+        num = "17"
         abbr = ""
         fullname = "Machine Learning"
         publisher = "Springer"
@@ -1766,7 +1829,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "19"
+        num = "18"
         abbr = ""
         fullname = "Neural Computation"
         publisher = "MIT Press"
@@ -1775,7 +1838,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "20"
+        num = "19"
         abbr = ""
         fullname = "Neural Networks"
         publisher = "Elsevier"
@@ -1784,10 +1847,19 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
-        num = "21"
+        num = "20"
         abbr = "PR"
         fullname = "Pattern Recognition"
         publisher = "Elsevier"
+        rank = "B"
+        type = "期刊"
+        field = "人工智能"
+
+    [[params.journal.list]]
+        num = "21"
+        abbr = "TACL"
+        fullname = "Transactions of the Association for Computational Linguistics"
+        publisher = "The Association for Computational Linguistics"
         rank = "B"
         type = "期刊"
         field = "人工智能"
@@ -2117,6 +2189,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.journal.list]]
+        num = "37"
+        abbr = "TIIS"
+        fullname = "ACM Transactions on Interactive Intelligent Systems"
+        publisher = "ACM"
+        rank = "C"
+        type = "期刊"
+        field = "人工智能"
+
+    [[params.journal.list]]
         num = "1"
         abbr = "TOCHI"
         fullname = "ACM Transactions on Computer-Human Interaction"
@@ -2189,6 +2270,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人机交互与普适计算"
 
     [[params.journal.list]]
+        num = "7"
+        abbr = "TSMC"
+        fullname = "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+        publisher = "IEEE"
+        rank = "B"
+        type = "期刊"
+        field = "人机交互与普适计算"
+
+    [[params.journal.list]]
         num = "1"
         abbr = "BIT"
         fullname = "Behaviour & Information Technology"
@@ -2216,6 +2306,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人机交互与普适计算"
 
     [[params.journal.list]]
+        num = "4"
+        abbr = "PACMHCI"
+        fullname = "Proceedings of the ACM on HumanComputer Interaction"
+        publisher = "ACM"
+        rank = "C"
+        type = "期刊"
+        field = "人机交互与普适计算"
+
+    [[params.journal.list]]
         num = "1"
         abbr = "JACM"
         fullname = "Journal of the ACM"
@@ -2229,6 +2328,15 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "Proc. IEEE"
         fullname = "Proceedings of the IEEE"
         publisher = "IEEE"
+        rank = "A"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "3"
+        abbr = "SCIS"
+        fullname = "Science China Information Sciences"
+        publisher = "Science in China Press/Springer"
         rank = "A"
         type = "期刊"
         field = "交叉/综合/新兴"
@@ -2344,15 +2452,6 @@ disableKinds=["404", "RSS", "sitemap"]
     [[params.journal.list]]
         num = "13"
         abbr = ""
-        fullname = "Science China Information Sciences"
-        publisher = "Science in China Press/Springer"
-        rank = "B"
-        type = "期刊"
-        field = "交叉/综合/新兴"
-
-    [[params.journal.list]]
-        num = "14"
-        abbr = ""
         fullname = "The Computer Journal"
         publisher = "Oxford University Press"
         rank = "B"
@@ -2360,11 +2459,20 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "交叉/综合/新兴"
 
     [[params.journal.list]]
-        num = "15"
-        abbr = ""
+        num = "14"
+        abbr = "WWW"
         fullname = "World Wide Web Journal"
         publisher = "Springer"
         rank = "B"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "15"
+        abbr = "FCS"
+        fullname = "Frontiers of Computer Science"
+        publisher = "Higher Education Press"
+        rank = "C"
         type = "期刊"
         field = "交叉/综合/新兴"
 
@@ -2388,15 +2496,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.journal.list]]
         num = "3"
-        abbr = "FCS"
-        fullname = "Frontiers of Computer Science"
-        publisher = "Higher Education Press"
-        rank = "C"
-        type = "期刊"
-        field = "交叉/综合/新兴"
-
-    [[params.journal.list]]
-        num = "4"
         abbr = ""
         fullname = "IEEE Geoscience and Remote Sensing Letters"
         publisher = "IEEE"
@@ -2405,7 +2504,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "交叉/综合/新兴"
 
     [[params.journal.list]]
-        num = "5"
+        num = "4"
         abbr = "JBHI"
         fullname = "IEEE Journal of Biomedical and Health Informatics"
         publisher = "IEEE"
@@ -2414,7 +2513,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "交叉/综合/新兴"
 
     [[params.journal.list]]
-        num = "6"
+        num = "5"
         abbr = "TBD"
         fullname = "IEEE Transactions on Big Data"
         publisher = "IEEE"
@@ -2423,7 +2522,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "交叉/综合/新兴"
 
     [[params.journal.list]]
-        num = "7"
+        num = "6"
         abbr = ""
         fullname = "IET Intelligent Transport Systems"
         publisher = "IET"
@@ -2432,7 +2531,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "交叉/综合/新兴"
 
     [[params.journal.list]]
-        num = "8"
+        num = "7"
         abbr = "JBI"
         fullname = "Journal of Biomedical Informatics"
         publisher = "Elsevier"
@@ -2441,13 +2540,68 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "交叉/综合/新兴"
 
     [[params.journal.list]]
-        num = "9"
+        num = "8"
         abbr = ""
         fullname = "Medical Image Analysis"
         publisher = "Elsevier"
         rank = "C"
         type = "期刊"
         field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "9"
+        abbr = "TII"
+        fullname = "IEEE Transactions on Industrial Informatics"
+        publisher = "IEEE"
+        rank = "C"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "10"
+        abbr = "TCPS"
+        fullname = "ACM Transactions on Cyber-Physical Systems"
+        publisher = "ACM"
+        rank = "C"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "11"
+        abbr = "TOCE"
+        fullname = "ACM Transactions on Computing Education"
+        publisher = "ACM"
+        rank = "C"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "12"
+        abbr = "FITEE"
+        fullname = "Frontiers of Information Technology & Electronic Engineering"
+        publisher = "Springer"
+        rank = "C"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "13"
+        abbr = "TCSS"
+        fullname = "IEEE Transactions on Computational Social Systems"
+        publisher = "IEEE"
+        rank = "C"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
+    [[params.journal.list]]
+        num = "14"
+        abbr = ""
+        fullname = "IEEE Transactions on Reliability"
+        publisher = "IEEE"
+        rank = "C"
+        type = "期刊"
+        field = "交叉/综合/新兴"
+
 
     [[params.conf.list]]
         num = "1"
@@ -2531,6 +2685,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
+        num = "10"
+        abbr = "EuroSys"
+        fullname = "European Conference on Computer Systems"
+        publisher = "ACM"
+        rank = "A"
+        type = "会议"
+        field = "计算机体系结构/并行与分布计算/存储系统"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "SoCC"
         fullname = "ACM Symposium on Cloud Computing"
@@ -2586,15 +2749,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "7"
-        abbr = "EuroSys"
-        fullname = "European Conference on Computer Systems"
-        publisher = "ACM"
-        rank = "B"
-        type = "会议"
-        field = "计算机体系结构/并行与分布计算/存储系统"
-
-    [[params.conf.list]]
-        num = "8"
         abbr = "HOT CHIPS"
         fullname = "Hot Chips: A Symposium on High Performance Chips"
         publisher = "IEEE"
@@ -2603,7 +2757,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "9"
+        num = "8"
         abbr = "CLUSTER"
         fullname = "IEEE International Conference on Cluster Computing"
         publisher = "IEEE"
@@ -2612,7 +2766,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "10"
+        num = "9"
         abbr = "ICCD"
         fullname = "International Conference on Computer Design"
         publisher = "IEEE"
@@ -2621,7 +2775,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "11"
+        num = "10"
         abbr = "ICCAD"
         fullname = "International Conference on Computer-Aided Design"
         publisher = "IEEE/ACM"
@@ -2630,7 +2784,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "12"
+        num = "11"
         abbr = "ICDCS"
         fullname = "International Conference on Distributed Computing Systems"
         publisher = "IEEE"
@@ -2639,7 +2793,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "13"
+        num = "12"
         abbr = "CODES+ISSS"
         fullname = "International Conference on Hardware/Software Co-design and System Synthesis"
         publisher = "ACM/ IEEE"
@@ -2648,7 +2802,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "14"
+        num = "13"
         abbr = "HiPEAC"
         fullname = "International Conference on High Performance and Embedded Architectures and Compilers"
         publisher = "ACM"
@@ -2657,7 +2811,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "15"
+        num = "14"
         abbr = "SIGMETRICS"
         fullname = "International Conference on Measurement and Modeling of Computer Systems"
         publisher = "ACM"
@@ -2666,7 +2820,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "16"
+        num = "15"
         abbr = "PACT"
         fullname = "International Conference on Parallel Architectures and Compilation Techniques"
         publisher = "IEEE/ACM"
@@ -2675,7 +2829,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "17"
+        num = "16"
         abbr = "ICPP"
         fullname = "International Conference on Parallel Processing"
         publisher = "IEEE"
@@ -2684,7 +2838,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "18"
+        num = "17"
         abbr = "ICS"
         fullname = "International Conference on Supercomputing"
         publisher = "ACM"
@@ -2693,7 +2847,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "19"
+        num = "18"
         abbr = "VEE"
         fullname = "International Conference on Virtual Execution Environments"
         publisher = "ACM"
@@ -2702,7 +2856,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "20"
+        num = "19"
         abbr = "IPDPS"
         fullname = "International Parallel & Distributed Processing Symposium"
         publisher = "IEEE"
@@ -2711,7 +2865,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "21"
+        num = "20"
         abbr = "Performance"
         fullname = "International Symposium on Computer Performance Modeling, Measurements and Evaluation"
         publisher = "ACM"
@@ -2720,7 +2874,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "22"
+        num = "21"
         abbr = "HPDC"
         fullname = "International Symposium on High Performance Distributed Computing"
         publisher = "IEEE"
@@ -2729,7 +2883,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "23"
+        num = "22"
         abbr = "ITC"
         fullname = "International Test Conference"
         publisher = "IEEE"
@@ -2738,7 +2892,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "24"
+        num = "23"
         abbr = "LISA"
         fullname = "Large Installation System Administration Conference"
         publisher = "USENIX"
@@ -2747,7 +2901,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "25"
+        num = "24"
         abbr = "MSST"
         fullname = "Mass Storage Systems and Technologies"
         publisher = "IEEE"
@@ -2756,10 +2910,19 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "26"
+        num = "25"
         abbr = "RTAS"
         fullname = "Real-Time and Embedded Technology and Applications Symposium"
         publisher = "IEEE"
+        rank = "B"
+        type = "会议"
+        field = "计算机体系结构/并行与分布计算/存储系统"
+
+    [[params.conf.list]]
+        num = "26"
+        abbr = "Euro-Par"
+        fullname = "European Conference on Parallel and Distributed Computing"
+        publisher = "Springer"
         rank = "B"
         type = "会议"
         field = "计算机体系结构/并行与分布计算/存储系统"
@@ -2811,15 +2974,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "6"
-        abbr = "Euro-Par"
-        fullname = "European Conference on Parallel and Distributed Computing"
-        publisher = "Springer"
-        rank = "C"
-        type = "会议"
-        field = "计算机体系结构/并行与分布计算/存储系统"
-
-    [[params.conf.list]]
-        num = "7"
         abbr = "ETS"
         fullname = "European Test Symposium"
         publisher = "IEEE"
@@ -2828,7 +2982,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "8"
+        num = "7"
         abbr = "FPL"
         fullname = "Field Programmable Logic and Applications"
         publisher = "IEEE"
@@ -2837,7 +2991,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "9"
+        num = "8"
         abbr = "FCCM"
         fullname = "Field-Programmable Custom Computing Machines"
         publisher = "IEEE"
@@ -2846,7 +3000,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "10"
+        num = "9"
         abbr = "GLSVLSI"
         fullname = "Great Lakes Symposium on VLSI"
         publisher = "ACM/IEEE"
@@ -2855,7 +3009,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "11"
+        num = "10"
         abbr = "ATS"
         fullname = "IEEE Asian Test Symposium"
         publisher = "IEEE"
@@ -2864,7 +3018,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "12"
+        num = "11"
         abbr = "HPCC"
         fullname = "IEEE International Conference on High Performance Computing and Communications"
         publisher = "IEEE"
@@ -2873,7 +3027,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "13"
+        num = "12"
         abbr = "HiPC"
         fullname = "IEEE International Conference on High Performance Computing, Data and Analytics"
         publisher = "IEEE/ ACM"
@@ -2882,7 +3036,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "14"
+        num = "13"
         abbr = "MASCOTS"
         fullname = "IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems"
         publisher = "IEEE"
@@ -2891,7 +3045,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "15"
+        num = "14"
         abbr = "ISPA"
         fullname = "IEEE International Symposium on Parallel and Distributed Processing with Applications"
         publisher = "IEEE"
@@ -2900,7 +3054,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "16"
+        num = "15"
         abbr = "CCGRID"
         fullname = "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing"
         publisher = "ACM/IEEE"
@@ -2909,7 +3063,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "17"
+        num = "16"
         abbr = "NPC"
         fullname = "IFIP International Conference on Network and Parallel Computing"
         publisher = "Springer"
@@ -2918,7 +3072,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "18"
+        num = "17"
         abbr = "ICA3PP"
         fullname = "International Conference on Algorithms and Architectures for Parallel Processing"
         publisher = "IEEE"
@@ -2927,7 +3081,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "19"
+        num = "18"
         abbr = "CASES"
         fullname = "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems"
         publisher = "ACM"
@@ -2936,7 +3090,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "20"
+        num = "18"
         abbr = "FPT"
         fullname = "International Conference on Field-Programmable Technology"
         publisher = "IEEE"
@@ -2945,7 +3099,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "21"
+        num = "20"
         abbr = "ICPADS"
         fullname = "International Conference on Parallel and Distributed Systems"
         publisher = "IEEE"
@@ -2954,7 +3108,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "22"
+        num = "21"
         abbr = "ISCAS"
         fullname = "International Symposium on Circuits and Systems"
         publisher = "IEEE"
@@ -2963,7 +3117,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "23"
+        num = "22"
         abbr = "ISLPED"
         fullname = "International Symposium on Low Power Electronics and Design"
         publisher = "ACM/IEEE"
@@ -2972,7 +3126,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "24"
+        num = "23"
         abbr = "ISPD"
         fullname = "International Symposium on Physical Design"
         publisher = "ACM"
@@ -2981,7 +3135,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "25"
+        num = "24"
         abbr = "HotI"
         fullname = "Symposium on High-Performance Interconnects"
         publisher = "IEEE"
@@ -2990,9 +3144,18 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机体系结构/并行与分布计算/存储系统"
 
     [[params.conf.list]]
-        num = "26"
+        num = "25"
         abbr = "VTS"
         fullname = "VLSI Test Symposium"
+        publisher = "IEEE"
+        rank = "C"
+        type = "会议"
+        field = "计算机体系结构/并行与分布计算/存储系统"
+
+    [[params.conf.list]]
+        num = "26"
+        abbr = "ITC-Asia"
+        fullname = "International Test Conference in Asia"
         publisher = "IEEE"
         rank = "C"
         type = "会议"
@@ -3296,6 +3459,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机网络"
 
     [[params.conf.list]]
+        num = "20"
+        abbr = "APNet"
+        fullname = "Asia-Pacific Workshop on Networking"
+        publisher = "ACM"
+        rank = "C"
+        type = "会议"
+        field = "计算机网络"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "CCS"
         fullname = "ACM Conference on Computer and Communications Security"
@@ -3336,6 +3508,15 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "USENIX Security"
         fullname = "Usenix Security Symposium"
         publisher = "USENIX Association"
+        rank = "A"
+        type = "会议"
+        field = "网络与信息安全"
+
+    [[params.conf.list]]
+        num = "6"
+        abbr = "NDSS"
+        fullname = "ISOC Network and Distributed System Security Symposium"
+        publisher = "ISOC"
         rank = "A"
         type = "会议"
         field = "网络与信息安全"
@@ -3432,15 +3613,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "11"
-        abbr = "NDSS"
-        fullname = "ISOC Network and Distributed System Security Symposium"
-        publisher = "ISOC"
-        rank = "B"
-        type = "会议"
-        field = "网络与信息安全"
-
-    [[params.conf.list]]
-        num = "12"
         abbr = "TCC"
         fullname = "Theory of Cryptography Conference"
         publisher = "Springer"
@@ -3665,6 +3837,24 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "网络与信息安全"
 
     [[params.conf.list]]
+        num = "25"
+        abbr = "EuroS&P"
+        fullname = "IEEE European Symposium on Security and Privacy"
+        publisher = "IEEE"
+        rank = "C"
+        type = "会议"
+        field = "网络与信息安全"
+
+    [[params.conf.list]]
+        num = "26"
+        abbr = "Inscrypt"
+        fullname = "International Conference on Information Security and Cryptology"
+        publisher = "Springer"
+        rank = "C"
+        type = "会议"
+        field = "网络与信息安全"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "PLDI"
         fullname = "ACM SIGPLAN Conference on Programming Language Design & Implementation"
@@ -3741,6 +3931,15 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "OSDI"
         fullname = "USENIX Symposium on Operating Systems Design and Implementations"
         publisher = "USENIX"
+        rank = "A"
+        type = "会议"
+        field = "软件工程/系统软件/程序设计语言"
+
+    [[params.conf.list]]
+        num = "10"
+        abbr = "FM"
+        fullname = "International Symposium on Formal Methods"
+        publisher = "FME"
         rank = "A"
         type = "会议"
         field = "软件工程/系统软件/程序设计语言"
@@ -3900,15 +4099,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "18"
-        abbr = "FM"
-        fullname = "International Symposium on Formal Methods"
-        publisher = "FME"
-        rank = "B"
-        type = "会议"
-        field = "软件工程/系统软件/程序设计语言"
-
-    [[params.conf.list]]
-        num = "19"
         abbr = "ISSRE"
         fullname = "International Symposium on Software Reliability Engineering"
         publisher = "IEEE"
@@ -3917,7 +4107,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.conf.list]]
-        num = "20"
+        num = "19"
         abbr = "HotOS"
         fullname = "USENIX Workshop on Hot Topics in Operating Systems"
         publisher = "USENIX"
@@ -4151,6 +4341,24 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "软件工程/系统软件/程序设计语言"
 
     [[params.conf.list]]
+        num = "26"
+        abbr = "Internetware"
+        fullname = "Asia-Pacific Symposium on Internetware"
+        publisher = "ACM"
+        rank = "C"
+        type = "会议"
+        field = "软件工程/系统软件/程序设计语言"
+
+    [[params.conf.list]]
+        num = "27"
+        abbr = "RV"
+        fullname = "International Conference on Runtime Verification"
+        publisher = "Springer"
+        rank = "C"
+        type = "会议"
+        field = "软件工程/系统软件/程序设计语言"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "SIGMOD"
         fullname = "ACM Conference on Management of Data"
@@ -4295,6 +4503,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "数据库/数据挖掘/内容检索"
 
     [[params.conf.list]]
+        num = "12"
+        abbr = "RecSys"
+        fullname = "ACM Conference on Recommender Systems"
+        publisher = "ACM"
+        rank = "B"
+        type = "会议"
+        field = "数据库/数据挖掘/内容检索"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "APWeb"
         fullname = "Asia Pacific Web Conference"
@@ -4397,6 +4614,15 @@ disableKinds=["404", "RSS", "sitemap"]
         num = "12"
         abbr = "WISE"
         fullname = "Web Information Systems Engineering"
+        publisher = "Springer"
+        rank = "C"
+        type = "会议"
+        field = "数据库/数据挖掘/内容检索"
+
+    [[params.conf.list]]
+        num = "12"
+        abbr = "ADMA"
+        fullname = "International Conference on Advanced Data Mining and Applications"
         publisher = "Springer"
         rank = "C"
         type = "会议"
@@ -4520,6 +4746,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机科学理论"
 
     [[params.conf.list]]
+        num = "9"
+        abbr = "COCOON"
+        fullname = "International Computing and Combinatorics Conference"
+        publisher = "Springer"
+        rank = "B"
+        type = "会议"
+        field = "计算机科学理论"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "CSL"
         fullname = "Computer Science Logic"
@@ -4604,6 +4839,15 @@ disableKinds=["404", "RSS", "sitemap"]
         num = "10"
         abbr = "STACS"
         fullname = "Symposium on Theoretical Aspects of Computer Science"
+        publisher = "Springer"
+        rank = "C"
+        type = "会议"
+        field = "计算机科学理论"
+
+    [[params.conf.list]]
+        num = "11"
+        abbr = "SETTA"
+        fullname = "International Symposium on Dependable Software Engineering: Theories, Tools, and Applications"
         publisher = "Springer"
         rank = "C"
         type = "会议"
@@ -4871,6 +5115,33 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "计算机图形学与多媒体"
 
     [[params.conf.list]]
+        num = "13"
+        abbr = "ICVRV"
+        fullname = "International Conference on Virtual Reality and Visualization"
+        publisher = "IEEE"
+        rank = "C"
+        type = "会议"
+        field = "计算机图形学与多媒体"
+
+    [[params.conf.list]]
+        num = "14"
+        abbr = "CVM"
+        fullname = "Computational Visual Media"
+        publisher = "Tsinghua University"
+        rank = "C"
+        type = "会议"
+        field = "计算机图形学与多媒体"
+
+    [[params.conf.list]]
+        num = "15"
+        abbr = "PRCV"
+        fullname = "Chinese Conference on Pattern Recognition and Computer Vision (中国模式识别与计算机视觉大会)"
+        publisher = "Springer"
+        rank = "C"
+        type = "会议"
+        field = "计算机图形学与多媒体"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "AAAI"
         fullname = "AAAI Conference on Artificial Intelligence"
@@ -5037,6 +5308,15 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "PPSN"
         fullname = "Parallel Problem Solving from Nature"
         publisher = "Springer"
+        rank = "B"
+        type = "会议"
+        field = "人工智能"
+
+    [[params.conf.list]]
+        num = "13"
+        abbr = "NAACL"
+        fullname = "The Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+        publisher = "NAACL"
         rank = "B"
         type = "会议"
         field = "人工智能"
@@ -5222,15 +5502,6 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人工智能"
 
     [[params.conf.list]]
-        num = "21"
-        abbr = "NAACL"
-        fullname = "The Annual Conference of the North American Chapter of the Association for Computational Linguistics"
-        publisher = "NAACL"
-        rank = "C"
-        type = "会议"
-        field = "人工智能"
-
-    [[params.conf.list]]
         num = "1"
         abbr = "CSCW"
         fullname = "ACM Conference on Computer Supported Cooperative Work and Social Computing"
@@ -5252,6 +5523,15 @@ disableKinds=["404", "RSS", "sitemap"]
         num = "3"
         abbr = "UbiComp"
         fullname = "ACM International Conference on Ubiquitous Computing"
+        publisher = "ACM"
+        rank = "A"
+        type = "会议"
+        field = "人机交互与普适计算"
+
+    [[params.conf.list]]
+        num = "4"
+        abbr = "UIST"
+        fullname = "ACM Symposium on User Interface Software and Technology"
         publisher = "ACM"
         rank = "A"
         type = "会议"
@@ -5286,15 +5566,6 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "4"
-        abbr = "UIST"
-        fullname = "ACM Symposium on User Interface Software and Technology"
-        publisher = "ACM"
-        rank = "B"
-        type = "会议"
-        field = "人机交互与普适计算"
-
-    [[params.conf.list]]
-        num = "5"
         abbr = "ECSCW"
         fullname = "European Conference on Computer Supported Cooperative Work"
         publisher = "Springer"
@@ -5303,7 +5574,7 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人机交互与普适计算"
 
     [[params.conf.list]]
-        num = "6"
+        num = "5"
         abbr = "PERCOM"
         fullname = "IEEE International Conference on Pervasive Computing and Communications"
         publisher = "IEEE"
@@ -5312,10 +5583,19 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "人机交互与普适计算"
 
     [[params.conf.list]]
-        num = "7"
+        num = "6"
         abbr = "MobileHCI"
         fullname = "International Conference on Human Computer Interaction with Mobile Devices and Services"
         publisher = "ACM"
+        rank = "B"
+        type = "会议"
+        field = "人机交互与普适计算"
+
+    [[params.conf.list]]
+        num = "7"
+        abbr = "ICWSM"
+        fullname = "The International AAAI Conference on Web and Social Media"
+        publisher = "AAAI"
         rank = "B"
         type = "会议"
         field = "人机交互与普适计算"
@@ -5456,6 +5736,15 @@ disableKinds=["404", "RSS", "sitemap"]
         field = "交叉/综合/新兴"
 
     [[params.conf.list]]
+        num = "3"
+        abbr = "WINE"
+        fullname = "Conference on Web and Internet Economics"
+        publisher = "Springer"
+        rank = "A"
+        type = "会议"
+        field = "交叉/综合/新兴"
+
+    [[params.conf.list]]
         num = "1"
         abbr = "CogSci"
         fullname = "Cognitive Science Society Annual Conference"
@@ -5495,6 +5784,15 @@ disableKinds=["404", "RSS", "sitemap"]
         num = "5"
         abbr = "RECOMB"
         fullname = "International Conference on Research in Computational Molecular Biology"
+        publisher = "Springer"
+        rank = "B"
+        type = "会议"
+        field = "交叉/综合/新兴"
+
+    [[params.conf.list]]
+        num = "6"
+        abbr = "MICCAI"
+        fullname = "International Conference on Medical Image Computing and Computer-Assisted Intervention"
         publisher = "Springer"
         rank = "B"
         type = "会议"
@@ -5559,6 +5857,33 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "ISBRA"
         fullname = "International Symposium on Bioinformatics Research and Applications"
         publisher = "Springer"
+        rank = "C"
+        type = "会议"
+        field = "交叉/综合/新兴"
+
+    [[params.conf.list]]
+        num = "8"
+        abbr = "SAGT"
+        fullname = "International Symposium on Algorithmic Game Theory"
+        publisher = "Springer"
+        rank = "C"
+        type = "会议"
+        field = "交叉/综合/新兴"
+
+    [[params.conf.list]]
+        num = "9"
+        abbr = "SIGSPATIAL"
+        fullname = "ACM Special Interest Group on Spatial Information"
+        publisher = "ACM"
+        rank = "C"
+        type = "会议"
+        field = "交叉/综合/新兴"
+
+    [[params.conf.list]]
+        num = "10"
+        abbr = "ICIC"
+        fullname = "International Conference on Intelligent Computing"
+        publisher = "Springer-Nature"
         rank = "C"
         type = "会议"
         field = "交叉/综合/新兴"
