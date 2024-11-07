@@ -105,7 +105,7 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "TACO"
         fullname = "ACM Transactions on Architecture and Code Optimization"
         publisher = "ACM"
-        rank = "B"
+        rank = "A"
         type = "期刊"
         field = "计算机体系结构/并行与分布计算/存储系统"
 
