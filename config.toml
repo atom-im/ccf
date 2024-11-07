@@ -3443,7 +3443,7 @@ disableKinds=["404", "RSS", "sitemap"]
     [[params.conf.list]]
         num = "18"
         abbr = "WASA"
-        fullname = "International Conference on Wireless Algorithms, Systems, and Applications"
+        fullname = "The International Conference on Wireless Artificial Intelligent Computing Systems and Applications"
         publisher = "Springer"
         rank = "C"
         type = "会议"
@@ -3874,8 +3874,8 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "3"
-        abbr = "FSE/ESEC"
-        fullname = "ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference"
+        abbr = "FSE"
+        fullname = "ACM International Conference on the Foundations of Software Engineering"
         publisher = "ACM"
         rank = "A"
         type = "会议"
@@ -4234,8 +4234,8 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "14"
-        abbr = "SCC"
-        fullname = "International Conference on Service Computing"
+        abbr = "IEEE SSE"
+        fullname = "IEEE International Conference on Software Services Engineering"
         publisher = "IEEE"
         rank = "C"
         type = "会议"
@@ -5557,8 +5557,8 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [[params.conf.list]]
         num = "3"
-        abbr = "ITS"
-        fullname = "ACM International Conference on Interactive Tabletops and Surfaces"
+        abbr = "ISS"
+        fullname = "ACM International Conference on Interactive Surfaces and Spaces"
         publisher = "ACM"
         rank = "B"
         type = "会议"
