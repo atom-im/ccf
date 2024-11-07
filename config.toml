@@ -30,7 +30,7 @@ disableKinds=["404", "RSS", "sitemap"]
     [params.intro]
         enable = true
         title = "中国计算机学会推荐国际学术会议和期刊目录（2022）"
-        intro = "注：此目录为2022年10月中国计算机学会通过的第六版（2023年3月发布）。（之前的版本：[第五版](https://ccf.atom.im/v5)、[第四版](https://ccf.atom.im/v4)）。"
+        intro = "注：此目录为2022年10月中国计算机学会通过的第六版的更名版（2024年6月28日修订）。（之前的版本：[第六版](https://ccf.atom.im/v6)、[第五版](https://ccf.atom.im/v5)、[第四版](https://ccf.atom.im/v4)）。"
 
     # CCF rank list section
     [params.journal]
