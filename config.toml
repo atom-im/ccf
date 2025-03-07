@@ -663,7 +663,7 @@ disableKinds=["404", "RSS", "sitemap"]
         abbr = "TSC"
         fullname = "IEEE Transactions on Service Computing"
         publisher = "IEEE"
-        rank = "B"
+        rank = "A"
         type = "期刊"
         field = "软件工程/系统软件/程序设计语言"
 
