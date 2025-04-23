@@ -20,7 +20,7 @@
 					<tr class="item" style="background-color:Wheat">
 						<th scope="row">{{ $p.num }}</th>
 						<td>{{ $p.abbr | markdownify }}</td>
-						<td>{{ $p.fullname | markdownify }}</td>
+						<td><a href="{{ $p.url }}" target="_blank" rel="noopener">{{ $p.fullname | markdownify }}</a></td>
 						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.type | markdownify }}</td>
 						<td>{{ $p.field | markdownify }}</td>
@@ -29,7 +29,7 @@
 					<tr class="item" style="background-color:AntiqueWhite">
 						<th scope="row">{{ $p.num }}</th>
 						<td>{{ $p.abbr | markdownify }}</td>
-						<td>{{ $p.fullname | markdownify }}</td>
+						<td><a href="{{ $p.url }}" target="_blank" rel="noopener">{{ $p.fullname | markdownify }}</a></td>
 						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.type | markdownify }}</td>
 						<td>{{ $p.field | markdownify }}</td>
@@ -38,7 +38,7 @@
 					<tr class="item" style="background-color:OldLace">
 						<th scope="row">{{ $p.num }}</th>
 						<td>{{ $p.abbr | markdownify }}</td>
-						<td>{{ $p.fullname | markdownify }}</td>
+						<td><a href="{{ $p.url }}" target="_blank" rel="noopener">{{ $p.fullname | markdownify }}</a></td>
 						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.type | markdownify }}</td>
 						<td>{{ $p.field | markdownify }}</td>
