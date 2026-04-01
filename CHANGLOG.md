@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-相较2022年更新的上一版目录，此次《目录》（第七版）新增期刊14个，会议23个；升级期刊6个，会议5个；移除会议1个，降级会议2个，降级期刊1个；更名会议2个。
+相较2022年更新的上一版目录，此次《目录》（第七版）新增期刊14个，会议23个；升级期刊6个，会议5个；移除会议1个，降级会议2个，降级期刊1个；更名会议3个，更名期刊2个。
 
 ---
 
@@ -97,16 +97,26 @@
 
 ---
 
-## 七、更名会议（2个）
+## 七、更名会议（3个）
 
 | 原简称 | 新简称 | 新全称 | 级别 | 领域 |
 |---|---|---|---|---|
 | USENIX ATC | ACM SIGOPS ATC | ACM SIGOPS Annual Technical Conference | A | 计算机体系结构 |
 | RTA | FSCD | International Conference on Formal Structures for Computation and Deduction | C | 计算机科学理论 |
+| CASA | CASAXR | International Conference on Computer Animation, Social Agents, and Extended Reality | C | 计算机图形学与多媒体 |
 
 ---
 
-## 八、移除会议（1个）
+## 八、更名期刊（2个）
+
+| 原简称 | 新简称 | 新全称 | 级别 | 领域 |
+|---|---|---|---|---|
+| FITEE | EITEE | ENGINEERING Information Technology & Electronic Engineering | C | 交叉/综合/新兴 |
+| IR | （无简称） | Discover Computing | C | 数据库/数据挖掘/内容检索 |
+
+---
+
+## 九、移除会议（1个）
 
 | 简称 | 全称 | 原级别 | 领域 |
 |---|---|---|---|
